@@ -1,5 +1,5 @@
 import * as S from "./FooterStyles";
-import LogoGudiFooter from "../../assets/LogoGudi.svg";
+import LogoGudiFooter from "../../assets/logoGudi.svg";
 
 export default function Footer() {
   return (
