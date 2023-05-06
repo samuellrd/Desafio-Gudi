@@ -1,12 +1,15 @@
 import * as S from "./FooterStyles";
-import LogoGudi from "../../assets/LogoGudi.svg";
+import LogoGudiFooter from "../../assets/LogoGudi.svg";
 
 export default function Footer() {
   return (
     <S.Footer>
       <S.FAQSection>
         <a href="#topo">
-          <S.LogoGudi src={LogoGudi} alt="Logo Güdi: o bom da vida é viver" />
+          <S.LogoGudi
+            src={LogoGudiFooter}
+            alt="Logo Güdi: o bom da vida é viver"
+          />
         </a>
         <a href="#sobre">Sobre nós </a>
         <a href="#mural">Mural de memórias</a>
